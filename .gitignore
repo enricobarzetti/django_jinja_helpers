@@ -1,0 +1,13 @@
+*.DS_Store
+*.py[co]
+
+# Setuptools files
+build/
+dist/
+*.egg-info
+
+# Virtualenv files
+venv/
+
+# PyCharm files
+.idea/
