@@ -13,5 +13,5 @@ def render_bundle(bundle_name, extension=None, config='DEFAULT', attrs=''):
 
 @contextfunction
 @library.global_function
-def crispy(context, form):
-    return render_crispy_form(form, context=context)
+def crispy(context, form, helper=None):
+    return render_crispy_form(form, helper=helper, context=context)
