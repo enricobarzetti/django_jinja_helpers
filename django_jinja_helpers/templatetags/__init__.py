@@ -1,14 +1,9 @@
 from crispy_forms.utils import render_crispy_form
-from django.utils.safestring import mark_safe
 from django_jinja import library
 from jinja2 import contextfunction
-from webpack_loader import utils
+from webpack_loader.templatetags.webpack_loader import render_bundle
 
-
-@library.global_function
-def render_bundle(bundle_name, extension=None, config='DEFAULT', attrs=''):
-    tags = utils.get_as_tags(bundle_name, extension=extension, config=config, attrs=attrs)
-    return mark_safe('\n'.join(tags))
+library.global_function(render_bundle)
 
 
 @contextfunction
