@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django_jinja_helpers"
-version = "0.1.4"
+version = "0.1.5"
 description = "Helpers for using django-jinja"
 authors = ["Enrico Barzetti <enricobarzetti@gmail.com>"]
 readme = "README.rst"
@@ -9,7 +9,7 @@ license = "mit"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-django = "^3.1.4"
+django = "^4.0"
 django-crispy-forms = "^1.10.0"
 django-jinja = "^2.7.0"
 django-webpack-loader = "^0.7.0"
