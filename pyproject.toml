@@ -10,8 +10,8 @@ license = "mit"
 [tool.poetry.dependencies]
 python = "^3.8"
 django = "^4.0"
-django-crispy-forms = "^1.10.0"
-django-jinja = "^2.7.0"
+django-crispy-forms = "^1.14.0"
+django-jinja = "^2.8.0"
 django-webpack-loader = "^0.7.0"
 
 [tool.poetry.dev-dependencies]
