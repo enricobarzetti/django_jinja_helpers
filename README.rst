@@ -3,7 +3,7 @@ Django Jinja Helpers
 
 Helpers for using django-jinja (https://github.com/niwinz/django-jinja) with
 
-- django-crisp-forms
+- django-crispy-forms
 - django-webpack-loader
 
 Installation
